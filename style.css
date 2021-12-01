@@ -1,0 +1,65 @@
+header {
+  background-color: darkblue;
+  height: 90px
+}
+
+header h1 {
+  color: white;
+  margin: 0;
+  font-family: 'comic sans ms', tahoma, serif;
+  font-size: 35px;
+  text-align: center;
+  letter-spacing: 3px;
+}
+
+header h3 {
+  margin: 10px 0px;
+  color: cornflowerblue;
+  font-family: georgia, tahoma, serif;
+  font-size: 15px;
+  text-align: center;
+  font-weight:200
+}
+
+/* Link Colors */
+a:link    { color: blue;}
+a:visited { color: blueviolet;}
+a:hover   { color: blue;}
+a:active  { color: fuchsia;}
+
+/* designing the main container*/
+main {
+  background-color: azure;
+  margin: 0px;
+  padding: 20px 0px
+}
+/* to design the headers within the main container*/
+main h2 {
+  color: cornflowerblue;
+  font-family: georgia, tahoma, serif;
+  font-size: 20px;
+  text-align: center
+}
+
+/*to center the image on the webpage*/
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+footer {
+  background-color: darkblue;
+  margin: 0px;
+  padding: 10px;
+  height: 40px
+}
+
+footer h4 {
+  margin: 10px,0,0,0;
+  font-family: georgia, tahoma, serif;
+  color: white;
+  font-size: 12px;
+  text-align: center
+}
